@@ -102,7 +102,7 @@ sphinx-issues==1.2.0
     # via -r docs.in
 sphinx-tabs==3.0.0
     # via -r docs.in
-sphinx==3.0.2
+sphinx==4.0.2
     # via
     #   -r docs.in
     #   pallets-sphinx-themes
@@ -135,7 +135,7 @@ typed-ast==1.4.3
     # via mypy
 typing-extensions==3.10.0.0
     # via mypy
-urllib3==1.25.8
+urllib3==1.26.4
     # via requests
 virtualenv==20.4.6
     # via
