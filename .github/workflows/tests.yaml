@@ -52,7 +52,7 @@ jobs:
           key: pip|${{ runner.os }}|${{ matrix.python }}|${{ hashFiles('setup.py') }}|${{ hashFiles('requirements/*.txt') }}
       - run: pip install tox
       - run: tox -e ${{ matrix.tox }}
-      - run: python install setup.py
+      - run: python setup.py install
       
       # Runs a set of commands using the runners shell
       - name: Synopsys Detect Rescan
